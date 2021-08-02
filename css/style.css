@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* css general */
+
+#footer {
+    /*background-color: rgb(255, 255, 255);*/
+    color:rgb(255, 255, 255);
+    text-align:center ;
+    display: inline-block;
+    padding: 30px;
+}
+.volver {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.title{
+    color: rgb(255, 255, 255); 
+    text-align: center;
+}
+.header{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.redes{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+body{
+    /*height: 100%;*/
+    text-align: center;
+    color: white;
+    font-size: 15px;/*modifica tamaña de fuente*/
+    font-style: normal;/*modifica estilo normal o italic*/
+    font-family: 'Roboto',sans-serif;/*modifica familia tipografica*/
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing:1px ;
+}
+.parallax{
+    background-image:url("../assets/img/parking.jpg");
+    background-color:rgba(0, 0, 0, 0.993) ;
+    background-size: auto;
+    height:100%;
+    background-attachment:fixed;
+    background-position:center ;
+    background-repeat:no-repeat;
+    max-width: 100%;
+    overflow-x: hidden ;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+}
+.headerRedes{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+}
+nav{
+    position:relative;
+    left:10px;
+    bottom:1px;
+}
+.encabezado{
+    background-color: rgba(0, 0, 0, 0.624);
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.parallax{
+    background-color:black ;
+}
+.contenido1{
+    background-color: rgba(0, 0, 0, 0.529);
+}
+
+/* css para index*/
+
+.video{
+    text-align:center ;
+}
+
+
+/* css para contacto*/
+
+
+.contacto{
+    color: rgb(255, 255, 255);
+}
+.form{
+    color: white;
+    text-align: center;
+}
+
+/* css para quienesomos*/
+
+
+.parrafo {
+    color: white;
+    text-align: left;
+}
+
+
+/* css para diseñadores*/
+
+.imgDiseño{
+    left:100%; 
+}
+
+/* css para ayuda */
+
+
+.info2{
+    text-align:center;
+}
+.nav{
+    color: white;
+}
+
+/*h1*/
+
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+
+/*h2*/
+
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+
+/*h3*/
